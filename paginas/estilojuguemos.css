@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color: #1ABC9C;
+}
+
+.nav {
+  background-color: #17A589;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px ;
+  
+}
+
+.nav-links {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+ }
+  
+.nav-menu {
+  list-style: none;
+}
+
+.nav-menu:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+.nav-item {
+  box-shadow: 2px 3px 2px black;
+  font-size: 18px;
+  padding: 10px;
+  text-decoration: none;
+  color: #1DCAA8;
+  background-color: #fff;
+  border-radius: 30px;
+  margin: 0 20px;
+  font-weight: 400;
+  font-weight: bold;
+  transition: .5s;
+
+}
+
+.nav-item:hover {
+  color: #7D3C98;
+}
+
+
+/*logo*/
+
+.logoprincipal {
+  margin-left: 60px;
+  margin-top: 10px;
+ /* transition: all .3s;*/
+}
+
+/*.logoprincipal:hover {
+transform: scale(1.2);
+}
+*/
+
+rect#monitor2 {
+  animation: part_2 ease-in 5s  ;
+  animation-iteration-count:1 ;
+}
+
+rect#pata2 {
+  animation: part_3 ease-in 7s  ;
+  animation-iteration-count:1 ;
+}
+
+rect#pata1 {
+  animation: part_4 ease-in 9s  ;
+  animation-iteration-count:1 ;
+}
+
+rect#cpu1 {
+  animation: part_5 ease-in 9s  ;
+  animation-iteration-count:1 ;
+}
+
+rect#cpu2 {
+  animation: part_6 ease-in 13s  ;
+  animation-iteration-count:1 ;
+}
+
+rect#cpu3 {
+  animation: part_7 ease-in 13s  ;
+  animation-iteration-count:1 ;
+}
+
+rect#cpu4 {
+  animation: part_8 ease-in 13s  ;
+  animation-iteration-count:1 ;
+}
+
+/*svg:hover {
+  opacity: 0;
+}*/
+
+
+@keyframes part_2 {
+  0% {
+    transform: translate(0px,-200px);
+    opacity:0;}
+  30% {
+    transform: translate(0px,-200px);
+    opacity:0;}
+  40% {
+    transform: translate(0,0);
+    opacity:1;}
+  90% {
+    transform: translate(0,0);
+    opacity:1;}
+
+   100% {
+    transform:translate(0,0);
+    opacity:1;}
+}  
+
+@keyframes part_3 {
+  0% {
+    transform: translate(10px,200px);
+    opacity:0;}
+  30% {
+    transform: translate(10px,200px);
+    opacity:0;}
+  40% {
+    transform: translate(0,0);
+    opacity:1;}
+  90% {
+    transform: translate(0,0);
+    opacity:1;}
+
+   100% {
+    transform:translate(0,0);
+    opacity:1;}
+}  
+
+@keyframes part_4 {
+  0% {
+    transform: translate(0,-10px);
+    opacity:0;}
+  30% {
+    transform: translate(0,-10px);
+    opacity:0;}
+  40% {
+    transform: translate(0,0);
+    opacity:1;}
+  90% {
+    transform: translate(0,0);
+    opacity:1;}
+
+   100% {
+    transform:translate(0,0);
+    opacity:1;}
+}  
+
+@keyframes part_5 {
+  0% {
+    transform: translate(0px,-200px);
+    opacity:0;}
+  30% {
+    transform: translate(0px,-200px);
+    opacity:0;}
+  40% {
+    transform: translate(0,0);
+    opacity:1;}
+  90% {
+    transform: translate(0,0);
+    opacity:1;}
+
+   100% {
+    transform:translate(0,0);
+    opacity:1;}
+}  
+
+@keyframes part_6 {
+  0% {
+    transform: translate(0px,0);
+    opacity:0;}
+  30% {
+    transform: translate(0px,0);
+    opacity:0;}
+  40% {
+    transform: translate(0,0);
+    opacity:1;}
+  90% {
+    transform: translate(0,0);
+    opacity:1;}
+
+   100% {
+    transform:translate(0,0);
+    opacity:1;}
+}  
+
+@keyframes part_7 {
+  0% {
+    transform: translate(0px,0);
+    opacity:0;}
+  30% {
+    transform: translate(0px,0);
+    opacity:0;}
+  40% {
+    transform: translate(0,0);
+    opacity:1;}
+  90% {
+    transform: translate(0,0);
+    opacity:1;}
+
+   100% {
+    transform:translate(0,0);
+    opacity:1;}
+}  
+
+@keyframes part_8 {
+  0% {
+    transform: translate(0px,0);
+    opacity:0;}
+  30% {
+    transform: translate(0px,0);
+    opacity:0;}
+  40% {
+    transform: translate(0,0);
+    opacity:1;}
+  90% {
+    transform: translate(0,0);
+    opacity:1;}
+
+   100% {
+    transform:translate(0,0);
+    opacity:1;}
+}  
+
+
+
+.logo{
+  cursor: pointer;
+  margin-left: 70px;
+  display: flex;
+  
+}
+
+
+
+.imagen {
+height: 75px;
+margin: 10px;
+transition: all .3s;
+  }
+
+.imagen:hover {
+transform: scale(1.2);
+}
+
+
+
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0,.4), rgba(0, 0, 0,.4)), url(../imageen/fondo-proyecto.jpg) 50% 0 fixed;
+  background-size: cover;
+  min-height: 650px;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 0px;
+
+}
+
+h1 {
+  color: #fff;
+  background-color: #606564 ;
+  text-shadow: 1px 1px 2px black;
+  padding: 5px;
+
+}
+
+
+h2 {
+  color: #D6D6C6;
+  text-shadow: 2px 2px 3px #4E4E4E;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-decoration-color: #d3d3d3;
+}
+
+.h1 {
+  text-align: center;
+}
+
+
+/*.main-juego {  
+  margin: 100px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+*/
+.juego{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.cajas {
+  display: flex;
+  flex-direction: row;
+}
+
+#cajasoltar,#cajasoltar2,#cajasoltar3 {
+  width: 300px;
+  height: 400px;
+  display: inline-block;
+  border: 3px solid #30076C;
+  background-color: darkgray;
+  align-items: center;
+  margin: 0 20px 20px 0;
+}
+
+.textoimagen {
+  text-align: center;
+  margin-top: 180px;
+
+}
+
+.imagenescaja {
+ display: flex; 
+ flex-direction: row;
+ margin: 0 20px 20px 0;
+ gap: 20px;
+}
+
+.imagen1,.imagen2,.imagen3 {
+  width: 300px;
+  height: 400px;
+}
+
+.reinicio {
+  display: flex;
+  margin: auto;
+  padding: 10px 100px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+
+.botonesvideo:active {
+  box-shadow: 0px 0px darkgray;
+  transform: translate(3px, 2px);
+  color: black;
+}
+
+.botonesvideo:hover {
+  background-color: darkgray;
+}
+
+/*footer*/
+
+footer {
+  background-color: #AAAAA6;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  color: white;
+}
+
+.footer-izq {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 60px;
+}
+
+.titulo-footer {
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+/*@media screen and (max-width: 800px) {
+  nav {
+    display: none
+  }
+}*/
