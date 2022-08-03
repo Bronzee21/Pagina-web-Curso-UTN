@@ -374,7 +374,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:150px 70px;
+  padding: 150px 70px;
   background: linear-gradient(to left,#1ABC9C ,#30076C 200%);
   margin-top: -20px;
 
@@ -414,9 +414,10 @@ footer {
 }
 
 .barravideo {
+  display: flex;
   background-color: #AAAAA6;
   border-radius: 100px;
-  display: flex;
+  
   padding: 2px 350px;
   
   justify-content: space-between;
@@ -427,7 +428,7 @@ footer {
 .botonera{
   display: flex;
   
-  gap: 10px;
+  gap: 20px;
 }
 
 .contenedor {
@@ -443,15 +444,21 @@ footer {
   border: none;
   margin-left: -300px;
   
+  
 }
 
  #pause{
+  width: 30px;
+  background-color: #AAAAA6;
+  border: none;
+  margin-right: 300px;
+}
+
+#stop {
   width: 28px;
   background-color: #AAAAA6;
   border: none;
-
-  
-  
+  margin-left: -250px;
 }
 
 
@@ -461,7 +468,8 @@ footer {
 }
 
 #showtime{
-  
+  margin-right: -100px;
+  margin-left: 130px;
   margin-top: 15px;
   font-size: 13px;
   font-family: Monserrat, sans-serif;
@@ -471,10 +479,15 @@ footer {
 }
 
 
-
+.titulovideo {
+  font-size: 35px;
+}
 
 
 @media screen and (max-width: 700px) {
+.nav{
+  width: 
+  }
 .nav-item {
   margin-left: -10px;
   padding: 10px;
@@ -491,11 +504,29 @@ footer {
 h2 {
   font-size: 25px;
   }  
+.card-hist {
+  flex-direction: column;
+}
 
+.barravideo{
+  padding: 1px 180px;
+}
 
+#play{
+  width: 25px;
+  margin-left: -150px;
+}
+#pause{
+  width: 25px;
+}
 
-.texto-historia {
-  flex-directio
+#showtime{
+  font-size: 12px;
+  margin-left: 150px;
+}
+
+.contenedor{
+  width: 80%;
 }
 
 .logo {

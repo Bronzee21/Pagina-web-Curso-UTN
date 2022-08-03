@@ -46,41 +46,30 @@
 		<div class="card-hist">
 			
 			<h2 class="titulo1">Los inicios de la Programacion</h2>
-			<p class="texto-historia">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p class="texto-historia">El primer modelo de programación del mundo se remonta al año 1842. En 1840, Ada Lovelace (1814-1852) consiguió definir el principio de iteraciones sucesivas mediante la ejecución de una única operación. Se dice que creó la palabra algoritmo en honor a Al Khawarizmi (780-850), para designar el proceso lógico de ejecución de un programa.Ada Lovelace (su verdadero nombre era Augusta Ada Byron) tradujo en 1842-1843 la memoria de un matemático italiano sobre la máquina analítica del inglés Charles Babbage (1791-1871).<br> Los cálculos de la máquina estaban en tarjetas perforadas en las que la información estaba cifrada. Ada elaboró un método para calcular los números de Bernoulli en estas tarjetas perforadas, lo que posteriormente sería considerado como el primer programa informático del mundo.</p>
 		</div>
 
 		<div class="card-hist">
 			
 			<h2 class="titulo2">Lenguaje de Ensamblaje</h2>
-			<p class="texto-historia">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p class="texto-historia">Los primeros ordenadores eléctricos aparecieron cien años más tarde, a principios de la década de 1940. No es que hubiese cien años de parón en desarrollo informático, sino que los científicos e investigadores hacían prueba y error hasta que algo significante pudo sacarse a la luz.<br>Las primeras máquinas informáticas tenían poca memoria y no eran rápidas ejecutando tareas, por lo que aún había que hacer cálculos largos y engorrosos. Se puede afirmar que los informáticos tenían la idea en la cabeza pero no sabían cómo convertirla en realidad.<br>
+			Así, los científicos tenían que escribir los programas y el lenguaje-máquina a mano. Esto suponía un adelanto pero seguía siendo muy trabajoso. </p>
 			
 		</div>
 
 		<div class="card-hist">
 			
 			<h2 class="titulo3">Los primeros lenguajes</h2>
-			<p class="texto-historia">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p class="texto-historia">El lenguaje Fortran (Formula Translator) es la gran creación del ingeniero de IBM John Backus. Ingenió el primer lenguaje de programación de alto nivel y funcional. Fue utilizado para el cálculo científico. Entre los lenguajes informáticos desarrollados en los años 1950 podemos destacar el LISP, para la gestión de listas, y el COBOL, inventado para programar una aplicación de gestión.<br>
+			Otro hito en la historia de la programación es la invención del lenguaje ALGOL (Algorithmic Oriented Language), el primer lenguaje que permitió describir los problemas de cálculo de forma algorítmica.<br>
+			El COBOL es el lenguaje más utilizado en el mundo desde hace 20 años y que tiene el mayor número de líneas de código de programación del mundo. En la década de 1960 se perfeccionará la tecnología existente y la puesta a punto de los lenguajes y de la lógica informática.<br>
+			Fortran y COBOL serán los acompañantes del progreso de la informática, sobre todo en lo referido al desarrollo de ordenadores transistorizados.</p>
 		</div>
 
 	</main>
 
 	<article class="contenedorvideo">
-		<h2>En este video comprederemos un poco mas sobre la <br>Programacion</h2>
+		<h2 class="titulovideo">En este video comprederemos un poco mas sobre la Programacion</h2>
 		<section class="contenedor">
 			<video width="100%" poster="../imageen/poster.jpg">
 				<source src="../videoo/historia-Comp.mp4" type="">
@@ -90,11 +79,14 @@
 
 		<div class="barravideo">
 			<div class="botonera">
-				<button id="play" class="botonesvideo">
+				<button onclick="play()" id="play" class="botonesvideo">
 					<img src="../imageen/play-solid.svg">
 				</button>
-				<button id="pause" class="botonesvideo">
+				<button onclick="pause()" id="pause" class="botonesvideo">
 					<img src="../imageen/pause-solid.svg">
+				</button>
+				<button onclick="stop()" id="stop" class="botonesvideo">
+					<img src="../imageen/stopp.svg">
 				</button>
 			</div>
 			<div id="showtime">Duracion del Video: 281.10</div>
@@ -113,7 +105,7 @@
 		</div>
 	</footer>
 
-	<script src="../script.js"></script>
+	<script src="../scripthist.js"></script>
 
 </body>
 </html>

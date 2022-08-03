@@ -1,0 +1,86 @@
+
+/* video */ 
+let video=document.querySelector('video');
+let playBoton = document.getElementById("play");
+let pauseBoton= document.getElementById("pause");
+
+// setTimeout(()=>{document.getElementById('showTime').innerHTML=` Duracion video : ${video.duration.toFixed(2)}`},1000);
+
+
+
+
+
+// setTimeout(()=>{document.getElementById('showTime').innerHTML=` Duracion video : ${video.duration.toFixed(2)}`},1000);
+
+// for (let i = 0; i < video.tim; i++) {
+//     console.log(video.currentTime)
+    
+// }
+
+playBoton.addEventListener('click',()=>{
+    video.play();
+
+});
+
+pauseBoton.addEventListener('click',()=>{
+    video.pause();
+    flag=false;
+});
+
+// function desplegar() {
+//     let submenu = document.querySelector(".tema");
+//     submenu.classList.toggle("tema-block")
+// }
+// function desptemaDia() {
+//     let body = document.querySelector("body");
+//     body.classList.remove()
+//     body.classList.add("body-day")
+// }
+// function temaNoche() {
+//     let body = document.querySelector("body");
+//     body.classList.remove()
+//     body.classList.add("body-night")
+// }
+
+
+let imagen1 = document.getElementById('imagen1');
+
+let destino = document.getElementsByClassName('cajasoltar');
+
+
+
+// traslado de imagen1
+
+imagen1.addEventListener('dragstart',inicioTraslado);
+
+imagen1.addEventListener('dragend',finalTraslado);
+
+// funciones
+
+function inicioTraslado(evento) {
+    evento.dataTransfer.setData('Text',"../imageen/rompe2.png")
+};
+
+function finalTraslado(evento) {
+    console.log("Finalizo el traslado")
+};
+
+
+// En el destino
+
+destino.addEventListener('dragover',prevenirDefault);
+
+destino.addEventListener('drop',soltarElemento);
+
+function soltarElemento(evento) {
+
+    let dataImagen1= evento.dataTransfer.getData('Text');
+
+    destino.innerHTML=`<img class="imagen1" src="$(dataImagen1"/>`
+}
+
+function prevenirDefault(evento) {
+    evento.preventDefault()
+}
+
+console.log('esfajkfi');
