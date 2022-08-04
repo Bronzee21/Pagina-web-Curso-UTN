@@ -16,7 +16,7 @@ body{
   justify-content: space-between;
   align-items: center;
   margin-bottom: 0px ;
-  margin-top: -20px;
+  margin-top: 0px;
 }
 
 .nav-links {
@@ -339,7 +339,7 @@ h2 {
 
 footer {
   background-color: #AAAAA6;
-  height: 80px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;

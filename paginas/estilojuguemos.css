@@ -376,12 +376,13 @@ h2 {
 
 footer {
   background-color: #AAAAA6;
-  height: 80px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 40px;
   color: white;
+  margin-top: 50px;
 }
 
 .footer-izq {
